@@ -9,8 +9,6 @@ import {
   PaginatedMahasiswaResponse,
 } from '../types/mahasiswa';
 
-
-console.log('EFFECTIVE VITE_API_URL IN FRONTEND CODE:', import.meta.env.VITE_API_URL);
 // VITE_API_URL sekarang diharapkan sudah mengandung /api dari backend
 // Contoh: https://test3-coba-coba-be.vercel.app/api
 const API_BASE_URL = import.meta.env.VITE_API_URL;
