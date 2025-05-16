@@ -9,7 +9,7 @@ import {
   PaginatedMahasiswaResponse, // Add this if it wasn't already there
 } from '../types/mahasiswa';// We'll define these types next
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000'; // Use Vite env var
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://test3-coba-coba-be.vercel.app'; // Use Vite env var
 
 // Define simplified types matching your DTOs for frontend use
 // You might want to generate these from your backend or define them more comprehensively
